@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+.app {
+  position: relative;
+  /* background-color: aqua; */
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  /* background: url(./images/todd-kent-kW1P8R-UoWI-unsplash.jpg) no-repeat center; */
+  /* background-size: cover; */
+  /* background-size: contain; */
+}
+.img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    transition: all 0.9s ease-in;
+}
+.mover {
+  /* width: 500px;
+    height: 500px; */
+  border-radius: 50%;
+  filter: blur(0.3rem);
+  background-color: transparent;
+  box-shadow: 0 0 100vh 110vw rgb(37, 37, 37);
+  position: absolute;
+  /* transition: all 0.3s linear;  */
+}
